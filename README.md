@@ -1,60 +1,98 @@
-# Hi, I'm Devamm 👋
+<div align="center">
 
-Most teams have data everywhere and insight nowhere. Pipelines run, signals get buried, and nobody trusts the number on the dashboard.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:0EA5E9&height=180&section=header&text=Devamm&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Turning%20raw%20data%20into%20decisions&descAlignY=58&descSize=18" width="100%"/>
 
-I build systems that turn raw data into decisions — and I'm about to go deeper into that problem as an incoming MS in Applied Data Intelligence student at **San Jose State University (Fall 2026)**.
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Incoming+MS+Applied+Data+Intelligence+%40+SJSU;Published+IEEE+Researcher;Building+Multi-Agent+AI+Systems;Data+Engineer+%7C+RAG+%7C+Azure+AI+Foundry" alt="Typing SVG" /></a>
 
-I've published IEEE research on federated learning for secure data aggregation, and I build multi-agent AI systems, RAG pipelines, and end-to-end data engineering pipelines — from raw ingestion to the metric that lands in front of a decision-maker.
-
----
-
-## 🚀 What I'm Working On
-
-| | |
-|---|---|
-| 📄 Published IEEE research on federated learning & privacy-preserving systems | 🤖 Building multi-agent AI systems on Azure AI Foundry |
-| 🧠 Developing RAG pipelines and LLM-powered applications | 🏗️ Designing ETL pipelines and data warehouses (PostgreSQL, star schemas) |
-| 🎓 Preparing for MS Applied Data Intelligence @ SJSU (Fall '26) | 📊 Building decision-support systems from raw, messy data |
+</div>
 
 ---
 
-## 🏗️ Selected Projects
+### 📖 The Short Version
 
-**SkillForge AI** — a five-agent enterprise certification readiness platform built on Azure AI Foundry for Microsoft's Agent League Hackathon.
+Most teams have data everywhere and insight nowhere — pipelines run, signals get buried, and nobody trusts the number on the dashboard. I build the systems that fix that: from ETL pipelines that clean and structure raw data, to multi-agent AI systems that reason over it.
 
-**National Digital Economy Intelligence Warehouse** — a data engineering project featuring a PostgreSQL star schema, a Python ETL pipeline with fuzzy district-name matching, and a District Prosperity Index computed via SQL window functions.
+Currently heading into a **MS in Applied Data Intelligence at San Jose State University (Fall 2026)**, with a published IEEE paper on federated learning and hands-on work building agentic AI systems on Azure AI Foundry.
 
-**Secure Data Aggregation for Oilfield Transport and Inspection Vehicles Using Onion-Routed Federated Learning** — published IEEE paper on privacy-preserving federated learning.
+<br/>
 
----
+### 🧭 Where I've Been Building
 
-## 🏗️ Areas of Interest
+<table>
+<tr>
+<td width="50%" valign="top">
 
-`FEDERATED LEARNING` `AGENTIC SYSTEMS` `RAG & LLM APPLICATIONS` `DATA ENGINEERING`
-`MULTI-AGENT ARCHITECTURES` `KNOWLEDGE GRAPHS` `CLOUD AI (AZURE / GCP)` `APPLIED DATA INTELLIGENCE`
+**🔐 IEEE Publication**
+Secure Data Aggregation for Oilfield Transport & Inspection Vehicles using Onion-Routed Federated Learning
 
----
+</td>
+<td width="50%" valign="top">
 
-## 🛠 Tech Stack
+**🤖 SkillForge AI**
+5-agent enterprise certification readiness platform, built on Azure AI Foundry for Microsoft's Agent League Hackathon
 
-| Languages | AI & ML | Data & Backend | Cloud & Infrastructure |
-|---|---|---|---|
-| Python | Azure AI Foundry | PostgreSQL | Azure |
-| SQL | RAG Systems | ETL Pipelines | Google Cloud |
-| TypeScript | Multi-Agent Systems | FastAPI | Docker |
-| JavaScript | Pydantic | Star Schema Design | GitHub Actions |
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-> 🎯 **Current Focus** — Building the data and agentic infrastructure that turns raw information into reliable decisions.
+**🏛️ National Digital Economy Intelligence Warehouse**
+PostgreSQL star schema + Python ETL with fuzzy district matching + a District Prosperity Index via SQL window functions
 
----
+</td>
+<td width="50%" valign="top">
 
-## 📫 Connect With Me
+**🎓 Google Gen AI Academy**
+Completed the ADK Challenge Lab — structured-output agents and sequential multi-agent pipelines
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR-USERNAME)
+</td>
+</tr>
+</table>
 
----
+<br/>
 
-**Incoming MS Applied Data Intelligence @ SJSU '28 · Published IEEE Researcher · Building agentic & data systems**
+### ⚡ Stack I Reach For
 
-*Interested in federated learning, agentic AI, RAG systems, and the infrastructure behind good decisions.*
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=py,ts,js,postgres,fastapi,azure,gcp,docker,githubactions,react&theme=dark" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+`Federated Learning` &nbsp;•&nbsp; `Multi-Agent Systems` &nbsp;•&nbsp; `RAG` &nbsp;•&nbsp; `Knowledge Graphs` &nbsp;•&nbsp; `Data Engineering` &nbsp;•&nbsp; `Applied Data Intelligence`
+
+</div>
+
+<br/>
+
+### 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-USERNAME&theme=tokyonight&hide_border=true" height="165"/>
+
+</div>
+
+<br/>
+
+### 🌐 Find Me
+
+<div align="center">
+
+<a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a>
+<a href="https://github.com/YOUR-USERNAME"><img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white"/></a>
+
+</div>
+
+<br/>
+
+<div align="center">
+<i>Building the infrastructure layer between raw data and good decisions.</i>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:0F172A&height=100&section=footer" width="100%"/>
