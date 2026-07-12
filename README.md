@@ -63,7 +63,7 @@ Completed the ADK Challenge Lab — structured-output agents and sequential mult
 
 <div align="center">
 
-`Federated Learning` &nbsp;•&nbsp; `Multi-Agent Systems` &nbsp;•&nbsp; `RAG` &nbsp;•&nbsp; `Knowledge Graphs` &nbsp;•&nbsp; `Data Engineering` &nbsp;•&nbsp; `Applied Data Intelligence`
+`Federated Learning` &nbsp;•&nbsp; `Multi-Agent Systems` &nbsp;•&nbsp; `RAG` &nbsp;•&nbsp; `Knowledge Graphs` &nbsp;•&nbsp; `Data Engineering` &nbsp;•&nbsp; `Applied Data Intelligence` &nbsp;•&nbsp; `Data Analysis`
 
 </div>
 
@@ -73,8 +73,8 @@ Completed the ADK Challenge Lab — structured-output agents and sequential mult
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=DevammPatel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=DevammPatel&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=DevammPatel &show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=DevammPatel &theme=tokyonight&hide_border=true" height="165"/>
 
 </div>
 
