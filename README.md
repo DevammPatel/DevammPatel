@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:0EA5E9&height=180&section=header&text=Devamm&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Turning%20raw%20data%20into%20decisions&descAlignY=58&descSize=18" width="100%"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Incoming+MS+Applied+Data+Intelligence+%40+SJSU;Published+IEEE+Researcher;Building+Multi-Agent+AI+Systems;Data+Engineer+%7C+RAG+%7C+Azure+AI+Foundry" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Published+IEEE+Researcher;Building+Multi-Agent+AI+Systems;Data+Engineer+%7C+RAG+%7C+Azure+AI+Foundry" alt="Typing SVG" /></a>
 
 </div>
 
