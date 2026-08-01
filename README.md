@@ -12,7 +12,7 @@
 
 Most teams have data everywhere and insight nowhere — pipelines run, signals get buried, and nobody trusts the number on the dashboard. I build the systems that fix that: from ETL pipelines that clean and structure raw data, to multi-agent AI systems that reason over it.
 
-Currently heading into a **MS in Applied Data Intelligence at San Jose State University (Fall 2026)**, with a published IEEE paper on federated learning and hands-on work building agentic AI systems on Azure AI Foundry.
+Computer Science graduate with a published IEEE paper on federated learning and hands-on work building agentic AI systems on Azure AI Foundry — currently building out my portfolio in data engineering and applied AI, and open to opportunities in these spaces.
 
 <br/>
 
