@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:0EA5E9&height=180&section=header&text=Devamm&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Turning%20raw%20data%20into%20decisions&descAlignY=58&descSize=18" width="100%"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=MSc+AI+%40+University+of+Leeds;Microsoft+Certified+Fabric+Data+Engineer;Open+Source+Contributor+%40+Arize+OpenInference;Published+IEEE+Researcher;Building+Multi-Agent+AI+Systems;Data+Engineer+%7C+RAG+%7C+Azure+AI+Foundry" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=MSc+AI+%40+University+of+Leeds;Microsoft+Certified+Fabric+Data+Engineer;Open+Source+Contributor+%40+Apache+Airflow%2C+dbt-duckdb+%26+OpenInference;Published+IEEE+Researcher;Building+Multi-Agent+AI+Systems;Data+Engineer+%7C+RAG+%7C+Azure+AI+Foundry" alt="Typing SVG" /></a>
 
 </div>
 
@@ -12,13 +12,45 @@
 
 Most teams have data everywhere and insight nowhere: pipelines run, signals get buried, and nobody trusts the number on the dashboard. I build the systems that fix that, from real-time streaming pipelines and ETL that clean and structure raw data to multi-agent AI systems that reason over it.
 
-I'm an **MSc Advanced Computer Science (Artificial Intelligence)** student at the **University of Leeds** and a B.Tech (ICT) graduate of DA-IICT. I have a published IEEE paper on federated learning, the **Microsoft Certified: Fabric Data Engineer Associate (DP-700)** certification, a merged contribution to **[Arize OpenInference](https://github.com/Arize-ai/openinference)**, and hands-on work across streaming data platforms, RAG and agentic AI on Azure AI Foundry. Based in Leeds, UK, and open to Data Engineering, Data Analyst and Data Science / AI roles.
+I'm an **MSc Advanced Computer Science (Artificial Intelligence)** student at the **University of Leeds** and a B.Tech (ICT) graduate of DA-IICT. I have a published IEEE paper on federated learning, the **Microsoft Certified: Fabric Data Engineer Associate (DP-700)** certification, merged contributions to **[Apache Airflow](https://github.com/apache/airflow)**, **[dbt-duckdb](https://github.com/duckdb/dbt-duckdb)** and **[Arize OpenInference](https://github.com/Arize-ai/openinference)**, and hands-on work across streaming data platforms, RAG and agentic AI on Azure AI Foundry. Based in Leeds, UK, and open to Data Engineering, Data Analyst and Data Science / AI roles.
 
 <br/>
 
 ### 🌍 Open Source
 
 <table>
+<tr>
+<td width="140" align="center" valign="middle">
+
+<a href="https://github.com/apache/airflow"><img src="https://github.com/apache.png" width="64" alt="Apache"/></a><br/>
+<sub><b>apache/airflow</b></sub><br/>
+<img src="https://img.shields.io/github/stars/apache/airflow?style=social" alt="stars"/>
+
+</td>
+<td valign="top">
+
+**[Use the Trino connection schema for OpenLineage table names](https://github.com/apache/airflow/pull/77345)** &nbsp;![Merged](https://img.shields.io/badge/merged-Nov_2026-8957e5?style=flat-square&logo=github)
+
+In the Airflow Trino provider, `TrinoHook` connects with the connection's schema as the session schema, but the schema it reported to OpenLineage was always `None`. So lineage for a query on an unqualified table, like `SELECT name FROM customer`, could list the same table from every schema in the catalog, including ones the query never read. If the metadata lookup failed, datasets were named `<catalog>.None.<table>`. I made the OpenLineage default schema follow the connection's schema, and added regression tests that fail without the fix. I found the bug by reading the provider code.
+
+</td>
+</tr>
+<tr>
+<td width="140" align="center" valign="middle">
+
+<a href="https://github.com/duckdb/dbt-duckdb"><img src="https://github.com/duckdb.png" width="64" alt="DuckDB"/></a><br/>
+<sub><b>duckdb/dbt-duckdb</b></sub><br/>
+<img src="https://img.shields.io/github/stars/duckdb/dbt-duckdb?style=social" alt="stars"/>
+
+</td>
+<td valign="top">
+
+**[Read Delta sources at as_of_version 0 instead of the latest version](https://github.com/duckdb/dbt-duckdb/pull/915)** &nbsp;![Merged](https://img.shields.io/badge/merged-Nov_2026-8957e5?style=flat-square&logo=github)
+
+dbt-duckdb's Delta Lake plugin ignored `as_of_version: 0`: it checked the version with `if as_of_version:`, and since `0` is falsy, a source pinned to the table's first commit silently read the latest version instead. I changed the check to `is not None`, and brought back the repo's Delta time-travel test assertions, which had been commented out and were hiding the bug. The test now fails on `main` and passes with the fix.
+
+</td>
+</tr>
 <tr>
 <td width="140" align="center" valign="middle">
 
